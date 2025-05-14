@@ -18,7 +18,7 @@ A Java program for compressing and decompressing grayscale images using predicti
 1. Clone the repository:
    
 ```
-git clone https://github.com/yourusername/predictive-image-compression.git
+https://github.com/mariamelghandoor/Predictive-Image-Compression.git
 ```
 
 2. Compile and run:javac App.java
