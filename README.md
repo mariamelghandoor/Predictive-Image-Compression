@@ -1,18 +1,34 @@
-## Getting Started
+# Predictive Image Compression
+A Java program for compressing and decompressing grayscale images using predictive coding and quantization.
+## Features
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+* Converts RGB images to grayscale
+* Supports three prediction methods: Adaptive 2D, First-Order, and Second-Order
+* Quantizes prediction errors for compression
+* Calculates compression ratio and Mean Squared Error (MSE)
+* Saves compressed data and reconstructed images
 
-## Folder Structure
+## Requirements
 
-The workspace contains two folders by default, where:
+1. Java 8 or higher
+2. Input images in BMP format
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Usage
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. Clone the repository:
+   
+```
+git clone https://github.com/yourusername/predictive-image-compression.git
+```
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+2. Compile and run:javac App.java
 
-## Dependency Management
+```
+java App
+```
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+3. Follow the menu to compress or decompress images, selecting prediction method and quantization levels.
+
+## License
+MIT License
+Copyright (c) 2025 Mariam elghandoor
